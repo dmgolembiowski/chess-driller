@@ -20,10 +20,10 @@ reqwest = { version = "0.11.18", features = ["blocking", "json"] }
 serde = { version = "1.0.183", features = ["derive"] }
 serde_json = "1.0.104"
 shakmaty = "0.26.0"
-tauri = { version = "1.6.3", features = [] }
+tauri = { version = "2.1.1", features = [] }
 tracing = "0.1.37"
 tracing-subscriber = { version = "0.3.17", features = ["env-filter"] }
 walkdir = "2.3.3"
 
 [build-dependencies]
-tauri-build = { version = "1.5.0", features = [] }
+tauri-build = { version = "2", features = [] }
